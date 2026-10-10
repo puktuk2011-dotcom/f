@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "cbscratch",
+	"version": "${version}",
+	"name": "Command Block Scratch",
+	"description": "Визуальный Scratch-подобный редактор командных блоков: собирайте скрипт из блоков, мод сам расставит цепочку командных блоков.",
+	"authors": ["you"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.cbscratch.CbScratchClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
